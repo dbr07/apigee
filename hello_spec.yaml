@@ -1,8 +1,8 @@
 swagger: "2.0"
 info:
-  version: "0.0.1"
+  version: "0.0.2"
   title: Hello World API
-host: 127.0.0.1:3000
+host: 127.0.0.1:8080
 basePath: /v1
 schemes:
   - http

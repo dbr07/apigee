@@ -62,8 +62,8 @@ app.get('/v1/hello', function (req, res) {
   res.send('Hello World!\n');
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(8080, function () {
+  console.log('Example app listening on port 8080!');
 });
 ```
 
@@ -89,7 +89,9 @@ Example app listening on port 3000!
 
 Test that the service is up
 ````
-curl localhost:3000/v1/hello
+curl localhost:8080/v1/hello
+or
+curl http://ec2-34-249-73-184.eu-west-1.compute.amazonaws.com:8080/v1/hello
 ````
 The API returns: Hello World!
 
@@ -107,9 +109,9 @@ Copy the following YAML content:
 ````yaml
 swagger: "2.0"
 info:
-  version: "0.0.1"
+  version: "0.0.2"
   title: Hello World API
-host: 127.0.0.1:3000
+host: 127.0.0.1:8080
 basePath: /v1
 schemes:
   - http
