@@ -47,11 +47,12 @@ In Apigee GUI you can upload the spec as YAML or JSON file.
 ### Create HelloWorld API
 To do this we create a simple Node.js server with a HelloWorld service.
 
-#### Create a file called helloworld_index.js
+#### Create javascript HelloWorld service
+Create a file called helloworld_index.js
 ````
 # vi helloworld_index.js
 ````
-#### Copy the following Node.js code into the file:
+#### Copy the following code into the file:
 ```sh
 var express = require('express');
 var app = express();
@@ -172,7 +173,7 @@ If not, select Develop > Specs in the side navigation menu.
 The following table describes the default values that are pre-populated using properties in the OpenAPI Specification. An excerpt of the OpenAPI Specification illustrating the properties used is shown following the table.
 
 ## Publish your API
-blabla
+no fill yet
 
 # Learn Edge
 What is Learn Edge?
@@ -187,9 +188,9 @@ Download or clone the repo and have fun with Learn Edge!
 
 
 # Links
-
-https://docs.apigee.com/api-platform/fundamentals/developing-apigee-edge
-https://docs-new.apigee.com/get-started
-https://community.apigee.com/index.html
-https://login.apigee.com/login
-https://github.com/apigee/api-platform-samples/tree/master/learn-edge
+* [Apigee login](https://login.apigee.com/login)
+* [Apigee docs](https://docs.apigee.com/api-platform/fundamentals/developing-apigee-edge)
+* [Apigee get started](https://docs-new.apigee.com/get-started)
+* [Apigee tool](https://www.npmjs.com/package/apigeetool)
+* [Apigee samples](https://github.com/apigee/api-platform-samples/tree/master/learn-edge)
+* [Apigee Community](https://community.apigee.com/index.html)
