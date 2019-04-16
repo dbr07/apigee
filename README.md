@@ -70,30 +70,33 @@ app.listen(8080, function () {
 #### HelloWorld Node.js API
 The virtual disk image has Centos-76 installed with Node.js, npm and nvm.
 
-Check which version of Node.js is running with nvm
+**Check which version of Node.js is running with nvm**
 ````sh
 [root@localhost ~]# nvm list
     v10.15.3
 ->    system
 ````
-Set the correct Node.js server version:
+**Set the correct Node.js server version:**
 ````
 [root@localhost ~]# nvm use v10.15.3
 Now using node v10.15.3
 ````
-Start the Hello service
+**Start the Hello service**
 ````
 [root@localhost ~]# node index.js
-Example app listening on port 3000!
+Example app listening on port 8080!
 ````
 
-Test that the service is up
+**Test that the service is up locally**
 ````
 curl localhost:8080/v1/hello
-or
-curl http://ec2-34-249-73-184.eu-west-1.compute.amazonaws.com:8080/v1/hello
 ````
 The API returns: Hello World!
+
+**For AWS Node.js server**
+````
+curl http://ec2-34-249-73-184.eu-west-1.compute.amazonaws.com:8080/v1/hello
+````
 
 ### Create an OpenAPI Specification
 To create an OpenAPI Specification that models the API that calls the Node.js server.
