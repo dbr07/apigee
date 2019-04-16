@@ -95,7 +95,7 @@ The API returns: Hello World!
 
 **For AWS Node.js server**
 ````
-curl http://ec2-34-249-73-184.eu-west-1.compute.amazonaws.com:8080/v1/hello
+curl http://aws_server_public_DNS:8080/v1/hello
 ````
 
 ### Create an OpenAPI Specification
