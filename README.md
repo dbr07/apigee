@@ -199,3 +199,5 @@ Download or clone the repo and have fun with Learn Edge!
 * [Apigee tool](https://www.npmjs.com/package/apigeetool)
 * [Apigee samples](https://github.com/apigee/api-platform-samples/tree/master/learn-edge)
 * [Apigee Community](https://community.apigee.com/index.html)
+* [Apigee Management API's](https://apidocs.apigee.com/management/apis)
+* [Apigee builtin polices](https://docs.apigee.com/api-platform/reference/policies/reference-overview-policy)
