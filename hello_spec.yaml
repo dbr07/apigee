@@ -33,7 +33,7 @@ definitions:
       message:
         type: string
       age:
-        type: number
+        type: string
   ErrorResponse:
     required:
       - message
